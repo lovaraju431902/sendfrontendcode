@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+
+          .font-poppins {
+            font-family: 'Poppins', sans-serif;
+          }
+
+          .wave span {
+            transform: translate(-50%, -75%);
+          }
+
+          .wave1 {
+            animation: rotateWave 5s linear infinite;
+            transform-origin: center center;
+          }
+          .wave2 {
+            animation: rotateWave 10s linear infinite;
+            transform-origin: center center;
+          }
+          .wave3 {
+            animation: rotateWave 15s linear infinite;
+            transform-origin: center center;
+          }
+
+          @keyframes rotateWave {
+            0% {
+              transform: translate(-50%, -75%) rotate(0deg);
+            }
+            100% {
+              transform: translate(-50%, -75%) rotate(360deg);
+            }
+          }
