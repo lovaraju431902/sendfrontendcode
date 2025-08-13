@@ -6,7 +6,7 @@ export default function HomePage() {
     <div className="text-center">
       <h1 className="text-3xl font-bold mb-4">🔒 Secure File Share</h1>
       <p className="text-gray-600 mb-6">
-        Easily share files or text with anyone. All content auto-expires after 10 minutes.
+        Easily share files or text with anyone. All content auto-expires after 5 minutes.
       </p>
       <div className="flex justify-center gap-4">
         <Link
